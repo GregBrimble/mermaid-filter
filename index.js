@@ -27,7 +27,7 @@ function mermaid(type, value, format, meta) {
         classes = attrs[1];
     var options = {
         width: process.env.MERMAID_FILTER_WIDTH || 800,
-        format: process.env.MERMAID_FILTER_FORMAT || 'png',
+        format: process.env.MERMAID_FILTER_FORMAT || 'svg',
         loc: process.env.MERMAID_FILTER_LOC || 'inline',
         theme: process.env.MERMAID_FILTER_THEME || 'default',
         caption: process.env.MERMAID_FILTER_CAPTION || '',
